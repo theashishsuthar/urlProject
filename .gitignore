@@ -1,0 +1,51 @@
+# Ignore general project files and folders
+.DS_Store
+node_modules/
+dist/
+.env
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+build/
+bin/
+obj/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+
+# Ignore environment configuration files
+.env
+
+# Ignore database files
+*.db
+
+# Ignore test files
+__tests__/
+
+# Ignore deployment files
+deploy/
+
+# Ignore cache and temporary files
+.cache/
+.tmp/
+temp/
+
+# Ignore API documentation
+docs/
+
+# Ignore compiled code
+*.min.js
+*.min.css
+
+# Ignore miscellaneous files
+*.bak
+*.swp
+*.tmp
+*.pid
